@@ -86,7 +86,7 @@ export default function Cards() {
           ))}
         </div>
 
-        <div className="mt-12 p-8 bg-white rounded-xl border-2 border-accent/20">
+        <div className="mt-12 p-8 bg-card rounded-xl border-2 border-accent/20">
           <div className="grid md:grid-cols-4 gap-6 text-center">
             <div>
               <Icon name="ShieldCheck" size={40} className="text-accent mx-auto mb-2" />

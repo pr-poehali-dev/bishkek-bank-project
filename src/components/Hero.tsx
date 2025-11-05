@@ -10,7 +10,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="pt-32 pb-20 px-4 bg-gradient-to-br from-primary via-primary/95 to-accent">
+    <section id="home" className="pt-32 pb-20 px-4 bg-gradient-to-br from-black via-gray-900 to-black">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-white space-y-6 animate-fade-in-up">

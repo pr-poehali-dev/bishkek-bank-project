@@ -32,7 +32,7 @@ const stats = [
 
 export default function About() {
   return (
-    <section id="about" className="py-20 px-4 bg-white">
+    <section id="about" className="py-20 px-4 bg-background">
       <div className="container mx-auto">
         <div className="text-center mb-12 animate-fade-in-up">
           <h2 className="text-4xl font-bold text-foreground mb-4">О Bishkek Bank</h2>
@@ -48,7 +48,7 @@ export default function About() {
               className="text-center p-6 bg-muted/30 rounded-xl animate-fade-in-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <p className="text-4xl font-bold text-primary mb-2">{stat.value}</p>
+              <p className="text-4xl font-bold text-secondary mb-2">{stat.value}</p>
               <p className="text-sm text-muted-foreground">{stat.label}</p>
             </div>
           ))}
@@ -74,7 +74,7 @@ export default function About() {
           ))}
         </div>
 
-        <div className="bg-gradient-to-r from-primary to-accent text-white rounded-2xl p-8 md:p-12">
+        <div className="bg-gradient-to-r from-gray-900 to-black text-white rounded-2xl p-8 md:p-12 border border-accent/20">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-3xl font-bold mb-4">Технологии безопасности</h3>
