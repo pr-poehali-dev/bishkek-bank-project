@@ -8,11 +8,12 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
-                <Icon name="Building2" className="text-white" size={24} />
-              </div>
-              <span className="text-xl font-bold">Bishkek Bank</span>
+            <div className="mb-4">
+              <img 
+                src="https://cdn.poehali.dev/files/ade5a79b-73f9-45c2-afa3-5013cf91aaf8.jpg" 
+                alt="Bishkek Bank" 
+                className="h-10 object-contain"
+              />
             </div>
             <p className="text-white/70 text-sm">
               Надёжный банковский партнёр с 1996 года

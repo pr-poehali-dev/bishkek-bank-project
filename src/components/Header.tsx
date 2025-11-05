@@ -18,10 +18,11 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <Icon name="Building2" className="text-primary-foreground" size={24} />
-            </div>
-            <span className="text-2xl font-bold text-primary">Bishkek Bank</span>
+            <img 
+              src="https://cdn.poehali.dev/files/ade5a79b-73f9-45c2-afa3-5013cf91aaf8.jpg" 
+              alt="Bishkek Bank" 
+              className="h-12 object-contain"
+            />
           </div>
 
           <div className="hidden md:flex items-center gap-8">

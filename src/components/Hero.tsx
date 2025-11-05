@@ -69,18 +69,18 @@ export default function Hero() {
                   </div>
                   <div>
                     <p className="text-white/70 text-sm">Баланс</p>
-                    <p className="text-white text-2xl font-bold">1 234 567 сом</p>
+                    <p className="text-white text-2xl font-bold">1 234 567 ₽</p>
                   </div>
                 </div>
                 <div className="h-px bg-white/20"></div>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
                     <p className="text-white/70 text-xs mb-1">Доходы</p>
-                    <p className="text-white text-lg font-semibold">+50 000</p>
+                    <p className="text-white text-lg font-semibold">+50 000 ₽</p>
                   </div>
                   <div>
                     <p className="text-white/70 text-xs mb-1">Расходы</p>
-                    <p className="text-white text-lg font-semibold">-25 000</p>
+                    <p className="text-white text-lg font-semibold">-25 000 ₽</p>
                   </div>
                 </div>
               </div>

@@ -7,7 +7,7 @@ const cardTypes = [
     name: 'Platinum',
     description: 'Премиум карта с максимальными привилегиями',
     cashback: '5%',
-    limit: '1 000 000',
+    limit: '1 000 000 ₽',
     features: ['Приоритетная поддержка', 'Доступ в VIP-залы', 'Страхование путешествий'],
     gradient: 'from-gray-800 to-gray-600',
   },
@@ -15,7 +15,7 @@ const cardTypes = [
     name: 'Gold',
     description: 'Золотая карта для активных клиентов',
     cashback: '3%',
-    limit: '500 000',
+    limit: '500 000 ₽',
     features: ['Кэшбэк на все покупки', 'Бесплатное обслуживание', 'SMS-уведомления'],
     gradient: 'from-yellow-600 to-yellow-400',
   },
@@ -23,7 +23,7 @@ const cardTypes = [
     name: 'Classic',
     description: 'Классическая карта для повседневных расходов',
     cashback: '1%',
-    limit: '200 000',
+    limit: '200 000 ₽',
     features: ['Онлайн-банкинг', 'Бесконтактные платежи', 'Мобильное приложение'],
     gradient: 'from-blue-600 to-blue-400',
   },
@@ -54,7 +54,7 @@ export default function Cards() {
                   </div>
                   <div className="absolute bottom-6 left-6">
                     <p className="text-sm opacity-80 mb-1">Кредитный лимит</p>
-                    <p className="text-2xl font-bold">{card.limit} сом</p>
+                    <p className="text-2xl font-bold">{card.limit}</p>
                   </div>
                   <div className="absolute bottom-6 right-6">
                     <Icon name="CreditCard" size={40} className="text-white/30" />
