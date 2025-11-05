@@ -49,11 +49,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="Mail" size={16} />
-                <span>info@bishkekbank.com</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Icon name="MapPin" size={16} />
-                <span>г. Москва, Московский Сити</span>
+                <span>pelmenskibidi@gmail.com</span>
               </li>
             </ul>
           </div>
