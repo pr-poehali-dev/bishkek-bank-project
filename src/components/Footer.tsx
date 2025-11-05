@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-white/70 text-sm">
-              Новый банк с большими амбициями
+              Российский банк с глобальными амбициями
             </p>
           </div>
 
@@ -45,15 +45,15 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-white/70">
               <li className="flex items-center gap-2">
                 <Icon name="Phone" size={16} />
-                <span>+996 312 123 456</span>
+                <span>+7 495 123 4567</span>
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="Mail" size={16} />
-                <span>info@bishkekbank.kg</span>
+                <span>info@bishkekbank.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="MapPin" size={16} />
-                <span>г. Бишкек, пр. Чуй 123</span>
+                <span>г. Москва, Московский Сити</span>
               </li>
             </ul>
           </div>
@@ -66,9 +66,9 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-4 text-sm text-white/70">
               <Icon name="Shield" size={16} className="text-secondary" />
-              <span>Лицензия НБ КР №123</span>
+              <span>Лицензия ЦБ РФ №123</span>
               <span>•</span>
-              <span>Член системы гарантирования депозитов</span>
+              <span>Член системы страхования вкладов</span>
             </div>
           </div>
         </div>

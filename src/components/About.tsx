@@ -37,7 +37,7 @@ export default function About() {
         <div className="text-center mb-12 animate-fade-in-up">
           <h2 className="text-4xl font-bold text-foreground mb-4">О Bishkek Bank</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Мы новый банк с большими амбициями. Наша цель — предложить клиентам современные финансовые решения с максимальным удобством и безопасностью
+            Российский банк с глобальными амбициями. Начинаем с России, планируем экспансию в Дубай, Америку и Европу
           </p>
         </div>
 
