@@ -15,10 +15,10 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-white space-y-6 animate-fade-in-up">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-              Ваши финансы под надёжной защитой
+              Начинаем путь к вашему финансовому успеху
             </h1>
             <p className="text-xl text-white/90 leading-relaxed">
-              Bishkek Bank — современные банковские решения с максимальным уровнем безопасности и конфиденциальности ваших данных
+              Bishkek Bank — молодой амбициозный банк с инновационным подходом. Мы только начинаем, но уже готовы предложить вам безопасные и современные банковские решения
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button 

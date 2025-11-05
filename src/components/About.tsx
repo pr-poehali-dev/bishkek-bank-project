@@ -14,7 +14,7 @@ const values = [
   {
     icon: 'TrendingUp',
     title: 'Надёжность',
-    description: 'Стабильная работа с 1996 года, член системы гарантирования депозитов',
+    description: 'Новый банк с современными технологиями и амбициозными планами развития',
   },
   {
     icon: 'Award',
@@ -24,10 +24,10 @@ const values = [
 ];
 
 const stats = [
-  { value: '28+', label: 'лет на рынке' },
-  { value: '500K+', label: 'клиентов' },
-  { value: '50+', label: 'отделений' },
-  { value: '99.9%', label: 'аптайм систем' },
+  { value: '2025', label: 'год основания' },
+  { value: '100+', label: 'первых клиентов' },
+  { value: '3', label: 'отделения' },
+  { value: '24/7', label: 'поддержка' },
 ];
 
 export default function About() {
@@ -37,7 +37,7 @@ export default function About() {
         <div className="text-center mb-12 animate-fade-in-up">
           <h2 className="text-4xl font-bold text-foreground mb-4">О Bishkek Bank</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Мы создаём безопасное банковское пространство, где каждый клиент может быть уверен в сохранности своих средств и конфиденциальности личных данных
+            Мы новый банк с большими амбициями. Наша цель — предложить клиентам современные финансовые решения с максимальным удобством и безопасностью
           </p>
         </div>
 
@@ -77,12 +77,12 @@ export default function About() {
         <div className="bg-gradient-to-r from-gray-900 to-black text-white rounded-2xl p-8 md:p-12 border border-accent/20">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-3xl font-bold mb-4">Технологии безопасности</h3>
+              <h3 className="text-3xl font-bold mb-4">Наши преимущества</h3>
               <p className="text-white/90 mb-6">
-                Мы используем передовые технологии для защиты ваших финансов: многофакторную аутентификацию, биометрическую идентификацию и шифрование данных по стандарту AES-256
+                Мы молодая команда, которая использует самые современные технологии. Мы гибкие, быстрые и готовы слушать каждого клиента
               </p>
               <div className="space-y-3">
-                {['Сертификация PCI DSS', 'Мониторинг 24/7', 'Антифрод системы'].map((item) => (
+                {['Индивидуальный подход', 'Быстрое обслуживание', 'Современные технологии'].map((item) => (
                   <div key={item} className="flex items-center gap-2">
                     <Icon name="CheckCircle2" size={20} className="text-secondary" />
                     <span>{item}</span>

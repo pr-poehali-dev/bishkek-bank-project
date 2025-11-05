@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-white/70 text-sm">
-              Надёжный банковский партнёр с 1996 года
+              Новый банк с большими амбициями
             </p>
           </div>
 
